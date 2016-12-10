@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.m-creations</groupId>
 	<artifactId>mc-oss-parent</artifactId>
-	<version>1.1.9-SNAPSHOT</version>
+	<version>1.1.9</version>
 	<packaging>pom</packaging>
 
 	<description>The base POM for m-creations' open source Java projects</description>
@@ -77,7 +77,7 @@
 		<connection>${scm.connection}/${scm.path}</connection>
 		<developerConnection>${scm.devConnection}/${scm.path}</developerConnection>
 		<url>${scm.url}/${scm.path}</url>
-	  <tag>HEAD</tag>
+	  <tag>release-1.1.9</tag>
   </scm>
 
 	<dependencyManagement>
