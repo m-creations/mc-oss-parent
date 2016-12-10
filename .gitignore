@@ -1,0 +1,10 @@
+*~
+.#*
+\#*#
+
+/pom.xml.backup
+/pom.xml.releaseBackup
+/pom.xml~
+/release.properties
+/target/
+
