@@ -491,7 +491,7 @@
 						<nexusUrl>https://oss.sonatype.org/</nexusUrl>
 						<!-- get it with mvn nexus-staging:rc-list-profiles (credentials must be configured correctly in ~/.m2/settings.xml) -->
 						<!-- if you don't specify it, the matching ID will be selected based on the groupId of this project -->
-						<stagingProfileId>2b9aab49f310de</stagingProfileId>
+						<!-- <stagingProfileId>2b9aab49f310de</stagingProfileId> -->
 						<autoReleaseAfterClose>true</autoReleaseAfterClose>
 					</configuration>
 				</plugin>
