@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.m-creations</groupId>
 	<artifactId>mc-oss-parent</artifactId>
-	<version>1.1.13-SNAPSHOT</version>
+	<version>1.1.13</version>
 	<packaging>pom</packaging>
 
 	<name>Parent POM for m-creations OSS projects</name>
@@ -81,7 +81,7 @@
 		<connection>${scm.connection}/${scm.path}</connection>
 		<developerConnection>${scm.devConnection}/${scm.path}</developerConnection>
 		<url>${scm.url}/${scm.path}</url>
-	  <tag>HEAD</tag>
+	  <tag>release-1.1.13</tag>
   </scm>
 
 	<dependencyManagement>
