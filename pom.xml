@@ -343,7 +343,7 @@
 						<!-- do not use the built-in release profile, as nexus-staging plugin will take care of the staging release with our profile 'release-to-central' -->
 						<useReleaseProfile>false</useReleaseProfile>
 						<releaseProfiles>release-to-central</releaseProfiles>
-						<goals>deploy nexus-staging:release</goals>
+						<goals>deploy nexus-staging:deploy</goals>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -490,6 +490,7 @@
 						<serverId>ossrh</serverId>
 						<nexusUrl>https://oss.sonatype.org/</nexusUrl>
 						<!-- get it with mvn nexus-staging:rc-list-profiles (credentials must be configured correctly in ~/.m2/settings.xml) -->
+						<!-- if you don't specify it, the matching ID will be selected based on the groupId of this project -->
 						<stagingProfileId>2b9aab49f310de</stagingProfileId>
 						<autoReleaseAfterClose>true</autoReleaseAfterClose>
 					</configuration>
