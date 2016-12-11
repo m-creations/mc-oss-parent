@@ -59,7 +59,7 @@
 		<compiler.targetLevel>1.8</compiler.targetLevel>
 
 		<!-- the path to this project relative to scm.connection/scm.devConnection properties -->
-		<scm.path>${project.artifactId}</scm.path>
+		<scm.path>mc-oss-parent</scm.path>
 
 		<!-- These properties are used in child projects as base URLs to reduce configuration -->
 		<scm.connection>scm:git:git@github.com:m-creations</scm.connection>
